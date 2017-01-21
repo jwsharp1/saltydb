@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar color="secondary">
+    <ion-title>
+      SaltyDB
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="home">
+  <ion-list>
+    <ion-item *ngFor="let person of people">
+      <ion-avatar item-left>
+        <img src="{{person.avatar}}">
+      </ion-avatar>
+      <h2>{{person.personaname}}</h2>
+      <p>{{person.realname}}</p>
+    </ion-item>
+  </ion-list>
+
+  <ion-fab right bottom>
+    <button ion-fab color="buttons" (click)="showPrompt()"><ion-icon name="md-add"></ion-icon></button>
+  </ion-fab>
+</ion-content>
