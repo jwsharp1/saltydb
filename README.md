@@ -3,7 +3,7 @@ This is a small application using Cordova/Ionic2 and the Steam Web API.
 
 1. Install the latest version of Node.js
 2. In a command window, execute `npm install -g ionic cordova`
-3. Download these project files from Github. Open a command window in the root of the project and run `npm install`
+3. Download the SaltyDB files from Github. Open a command window in the root of the project and run `npm install`
 4. Begin editing in your favorite code editor. To run the app in a browser use the command `ionic serve`
 
 NOTES:
