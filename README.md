@@ -8,6 +8,8 @@ This is a small application using Cordova/Ionic2 and the Steam Web API.
 
 NOTES:
 While running the app in a browser you can make changes to files and the package will rebuild automatically.
+
 In order for the Steam Web API to work while using `ionic serve` you need this Chrome extension:
   `https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?utm_source=chrome-app-launcher-info-dialog`
+  
   In Firefox this may be unnecessary. If nothing shows up when you serve the app check the browser debug.
