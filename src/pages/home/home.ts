@@ -37,8 +37,6 @@ export class HomePage {
           text: 'Save',
           handler: data => {
             console.log('Saved clicked');
-            this.banServ.updateList(data);
-            this.loadUsers();
           }
         }
       ]

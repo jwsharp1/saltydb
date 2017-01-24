@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
-
+import { Database } from '../providers/database';
+import { BanService } from '../providers/ban-service';
 import { HomePage } from '../pages/home/home';
 
 
 @Component({
-  templateUrl: 'app.html'
+  templateUrl: 'app.html',
+  providers: [Database, BanService]
 })
 export class MyApp {
   rootPage = HomePage;
