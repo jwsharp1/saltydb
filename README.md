@@ -10,7 +10,10 @@ This is a small application using Cordova/Ionic2 and the Steam Web API.
 NOTES:
 While running the app in a browser you can make changes to files and the package will rebuild automatically.
 
+SQLite is not compatible with the browser right now. In order to test the database functionality, you must run the project on Android or iOS.
+
+Every time you redownload the project from scratch you MUST run `npm install` and `ionic plugin add cordova-sqlite-storage`. Certain large folders are necessary for the project but are not hosted on github. The above two commands are how you can acquire them.
+
 In order for the Steam Web API to work while using `ionic serve` you need this Chrome extension:
   `https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?utm_source=chrome-app-launcher-info-dialog`
-  
 In Firefox this may be unnecessary. If nothing shows up when you serve the app check the browser debug.
